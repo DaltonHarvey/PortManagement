@@ -11,9 +11,9 @@ package Model;
  */
 public class Contentor {
     
-    private int codigoOperacao;
-    private int codigoContentor;
-    private int nrContentor;
+    private Operacao operacao;
+    private int contentorId;
+    private int numeroContentor;
 
     public Contentor(int codigoOperacao, int codigoContentor, int nrContentor) {
         this.codigoOperacao = codigoOperacao;
